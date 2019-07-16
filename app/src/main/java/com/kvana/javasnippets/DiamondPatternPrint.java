@@ -8,7 +8,7 @@ public class DiamondPatternPrint {
         int i;
         int j;
         System.out.println("");
-        for (i = 0; i <= num; i++) {
+        for (i = 1; i <= num; i++) {
 
             for (j = 1; j <= space; j++) {
                 // Print space for required times
@@ -23,7 +23,7 @@ public class DiamondPatternPrint {
             System.out.println();
         }
 
-        space = 1;
+        space = 2;
         num = num - 1;
 
         for (i = 0; i <= num - 1; i++) {
